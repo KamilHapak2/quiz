@@ -9,7 +9,7 @@
 			var vm = this;
 
 			vm.quizMetrics = quizMetrics;
-			vm.dataService = DataService
+			vm.dataService = DataService;
 			vm.getAnswerClass = getAnswerClass;
 			vm.setActiveQuestion = setActiveQuestion;
 			vm.reset = reset;
