@@ -1,9 +1,24 @@
 (function(){
 	angular
-		.module("quiz")
-		.controller('listCtrl', ListController);
+	.module("guitaristsQuiz")
+	.controller('listCtrl', ListController);
 
-		function ListController($scope){
-			$scope.hwdp = 'hwdp strazy miejskiej';
+	ListController.$inject = ['quizMetrics', 'DataService'];
+
+	function ListController(quizMetrics, DataService){
+		var vm = this;
+		vm.quizMetrics = quizMetrics;
+		vm.data = DataService.guitaristsData;
+		vm.activeGuitarist = {};
+		vm.changeActiveGuitarist = changeActiveGuitarist;
+		vm.activateQuiz = activateQuiz;
+		vm.search = '';
+
+		function changeActiveGuitarist(index){
+			vm.activeGuitarist = index;
 		}
+		function activateQuiz(){
+			quizMetrics.changeState('quiz', true);
+		}
+	}
 })();

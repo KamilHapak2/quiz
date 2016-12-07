@@ -1,4 +1,4 @@
 (function(){
 	angular
-		.module("quiz", []);
+		.module("guitaristsQuiz", []);
 })();
