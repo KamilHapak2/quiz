@@ -30,10 +30,10 @@
 				 ng-repeat="guitarist in list.data | filter:list.search">
 					<div class="well well-sm">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-xs-6 col-xs-offset-2">
 								<img ng-src="{{guitarist.image_url}}" class="img-rounded img-responsive well-img">
 							</div>
-							<div class="col-md-6">
+							<div class="col-md-6 col-xs-12">
 								<h4>{{guitarist.name}}</h4>
 								<p><strong>Bands: </strong>{{guitarist.bands}}</p>
 								<p><strong>Guitars used: </strong>{{guitarist.guitars}}</p>
