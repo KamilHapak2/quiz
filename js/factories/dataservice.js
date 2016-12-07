@@ -61,16 +61,16 @@
 		text: "Which of these is KK Downing?",
 		possibilities: [
 		{
-			answer: "../../img/kerry-king.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/kerry-king.jpg"
 		},
 		{
-			answer: "../../img/kk-downing.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/kk-downing.jpg"
 		},
 		{
-			answer: "../../img/johnnyramone.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/johnnyramone.jpg"
 		},
 		{
-			answer: "../../img/alexi_laiho.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/alexi_laiho.jpg"
 		}
 		],
 		selected: null,
@@ -81,16 +81,16 @@
 		text: "Which of these is Wojciech Hoffman?",
 		possibilities: [
 		{
-			answer: "../../img/HansenKai.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/HansenKai.jpg"
 		},
 		{
-			answer: "../../img/jeff-hanneman.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/jeff-hanneman.jpg"
 		},
 		{
-			answer: "../../img/James_Hetfield.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/James_Hetfield.jpg"
 		},
 		{
-			answer: "../../img/wojciech_hoffmann.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/wojciech_hoffmann.jpg"
 		}
 		],
 		selected: null,
@@ -161,16 +161,16 @@
 		text: "Which of these is Kai Hansen?",
 		possibilities: [
 		{
-			answer: "../../img/HansenKai.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/HansenKai.jpg"
 		},
 		{
-			answer: "../../img/Glenn-Tipton.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/Glenn-Tipton.jpg"
 		},
 		{
-			answer: "../../img/Dave-Mustaine.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/Dave-Mustaine.jpg"
 		},
 		{
-			answer: "../../img/kerry-king.jpg"
+			answer: "http://lukaszhapak.pl/quiz/img/kerry-king.jpg"
 		}
 		],
 		selected: null,
@@ -220,7 +220,7 @@
 	var guitaristsData = [
 	{
 		name: "James Hetfield",
-		image_url: "../../img/James_Hetfield.jpg",
+		image_url: "http://lukaszhapak.pl/quiz/img/James_Hetfield.jpg",
 		bands: "Metallica",
 		guitars: "Gibson, Jackson, ESP",
 		genre: "Thrash Metal",
@@ -228,7 +228,7 @@
 	},
 	{
 		name: "Dave Mustaine",
-		image_url: "../../img/Dave-Mustaine.jpg",
+		image_url: "http://lukaszhapak.pl/quiz/img/Dave-Mustaine.jpg",
 		bands: "Metallica, Megadeth",
 		guitars: "B.C Rich, Ibanez, Jackson, ESP, Dean",
 		genre: "Thrash Metal",
@@ -236,7 +236,7 @@
 	},
 	{
 		name: "Johnny Ramone",
-		image_url: "../../img/johnnyramone.jpg",
+		image_url: "http://lukaszhapak.pl/quiz/img/johnnyramone.jpg",
 		bands: "Ramones",
 		guitars: "Fender, Mosrite",
 		genre: "Punk Rock",
@@ -244,7 +244,7 @@
 	},
 	{
 		name: "Wojciech Hoffman",
-		image_url: "../../img/wojciech_hoffmann.jpg",
+		image_url: "http://lukaszhapak.pl/quiz/img/wojciech_hoffmann.jpg",
 		bands: "Turbo",
 		guitars: "Gibson, Ibanez",
 		genre: "Heavy Metal, Hard Rock, Thrash Metal",
@@ -252,7 +252,7 @@
 	},
 	{
 		name: "Kerry King",
-		image_url: "../../img/kerry-king.jpg",
+		image_url: "http://lukaszhapak.pl/quiz//img/kerry-king.jpg",
 		bands: "Megadeth, Slayer",
 		guitars: "B.C Rich",
 		genre: "Thrash Metal",
@@ -260,7 +260,7 @@
 	},
 	{
 		name: "Jeffrey Hanneman",
-		image_url: "../../img/jeff-hanneman.jpg",
+		image_url: "http://lukaszhapak.pl/quiz/img/jeff-hanneman.jpg",
 		bands: "Slayer",
 		guitars: "Gibson, B.C Rich, Jackson, ESP",
 		genre: "Thrash Metal",
@@ -268,7 +268,7 @@
 	},
 	{
 		name: "Kenneth 'K.K.' Downing",
-		image_url: "../../img/kk-downing.jpg",
+		image_url: "http://lukaszhapak.pl/quiz//img/kk-downing.jpg",
 		bands: "Judas Priest",
 		guitars: "Gibson, Hamer",
 		genre: "Heavy Metal",
@@ -276,7 +276,7 @@
 	},
 	{
 		name: "Glenn Tipton",
-		image_url: "../../img/Glenn-Tipton.jpg",
+		image_url: "http://lukaszhapak.pl/quiz//img/Glenn-Tipton.jpg",
 		bands: "Judas Priest",
 		guitars: "Fender, Gibson, Hamer, ESP",
 		genre: "Heavy Metal",
@@ -284,7 +284,7 @@
 	},
 	{
 		name: "Kai Hansen",
-		image_url: "../../img/HansenKai.jpg",
+		image_url: "http://lukaszhapak.pl/quiz/img/HansenKai.jpg",
 		bands: "Helloween, Gamma Ray, Unisonic",
 		guitars: "Gibson, ESP",
 		genre: "Heavy Metal, Power Metal",
@@ -292,7 +292,7 @@
 	},
 	{
 		name: "Alexi Laiho",
-		image_url: "../../img/alexi_laiho.jpg",
+		image_url: "http://lukaszhapak.pl/quiz/img/alexi_laiho.jpg",
 		bands: "Children of Bodom",
 		guitars: "ESP",
 		genre: "Thrash Metal, Death Metal",
